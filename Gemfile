@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'devise', '>= 3.2.4'
+gem 'simple_form'
 
 gem 'rails_12factor', group: :production
 gem 'bootstrap-sass', '~> 3.3.5.1'
