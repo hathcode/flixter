@@ -1,5 +1,4 @@
 class Instructor::SectionsController < ApplicationController
-    before_action :authenticate_user!
 
     def new
         @course = Course.find(params[:course_id])
