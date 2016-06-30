@@ -20,7 +20,7 @@ def require_authorized_for_current_section
 end
 
 
-  helpter_method :current_section
+  helper_method :current_section
   def current_section
     @current_section ||= Section.find(params[:section_id])
   end
